@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width">
   <title>DOM Manipulation</title>
   <style>
+    #center{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     .colorSquare{
       margin-right: 20px;
       border-radius: 30px;
@@ -18,6 +23,7 @@
 </head>
 
 <body>
+  <div id='center'>
   <div>
     <h1 style="color: blueviolet;">DOM Manipulation Example</h1>
   </div>
@@ -31,7 +37,7 @@
 </div>  
 
 <button id='clearBtn' style="width: 120px; height: 50px; background-color: black; color: white;" onclick="clearGame()">Clear Game</button>
-  
+  </div>
   <script src="script.js"></script>
 </body>
 
